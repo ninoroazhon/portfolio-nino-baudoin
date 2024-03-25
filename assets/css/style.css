@@ -286,81 +286,78 @@ h6 {
   margin-top: 100px;
 }
 
+@media (max-width: 992px){
+
+
+
 #recherche-alternance img {
   z-index: 999;
   width: 50px;
   height: 50px;
   margin-right: 25px;
   vertical-align: middle;
+  display: none;
 }
 
-@media only screen and (max-width: 600px) { 
-  #recherche-alternance img{
-    margin-left: -65px;
-    margin-top: -100px;
-    width: 30px;
-    height: 30px;
-  }
-
-  #searchTextResp::before{
-    content: "Alternance";
-    margin-left: -90px;
-    white-space: pre;
-  }
-
-  #searchTextResp1::before{
-    content: "Bachelor & Création & Digital Design";
-    margin-left: -192px;
-    white-space: pre;
-  }
-
-  #searchTextResp2::before{
-    content: "Design UX & Interfaces.";
-    margin-left: -140px;
-    white-space: pre;
-
-  }
-  #searchText {
-    /* Modifie le texte directement */
-    display: none;
-  }
-  
+#searchTextResp::before{
+  content: "Alternance";
+  margin-left: -90px;
+  white-space: pre;
 }
+
+#searchTextResp1::before{
+  content: "Bachelor & Création & Digital Design";
+  margin-left: -192px;
+  white-space: pre;
+}
+
+#searchTextResp2::before{
+  content: "Design UX & Interfaces.";
+  margin-left: -140px;
+  white-space: pre;
+
+}
+#searchText {
+  /* Modifie le texte directement */
+  display: none;
+}
+}
+
 
 #searchTextResp{
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 3s steps(40) forwards;
-  font-family: "Abril Fatface", serif;
-  letter-spacing: 1px;
-  font-size: 1em
+overflow: hidden;
+white-space: nowrap;
+animation: typing 3s steps(40) forwards;
+font-family: "Abril Fatface", serif;
+letter-spacing: 1px;
+font-size: 1em
 }
 
 #searchTextResp1{
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 3s steps(40) forwards;
-  font-family: "Abril Fatface", serif;
-  letter-spacing: 1px;
-  font-size: 1em
+overflow: hidden;
+white-space: nowrap;
+animation: typing 3s steps(40) forwards;
+font-family: "Abril Fatface", serif;
+letter-spacing: 1px;
+font-size: 1em
 }
 
 #searchTextResp2{
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 3s steps(40) forwards;
-  font-family: "Abril Fatface", serif;
-  letter-spacing: 1px;
-  font-size: 1em
+overflow: hidden;
+white-space: nowrap;
+animation: typing 3s steps(40) forwards;
+font-family: "Abril Fatface", serif;
+letter-spacing: 1px;
+font-size: 1em
 }
 
 #searchText {
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 3s steps(40) forwards;
-  font-family: "Abril Fatface", serif;
-  letter-spacing: 1px;
-  font-size: 1.5em;
+overflow: hidden;
+white-space: nowrap;
+animation: typing 3s steps(40) forwards;
+font-family: "Abril Fatface", serif;
+letter-spacing: 1px;
+font-size: 1.5em;
 }
 
 @keyframes typing {
@@ -914,10 +911,12 @@ section {
 }
 
 
-@media only screen and (max-width: 600px){
+@media (max-width: 992px){
   .img-fluid-nino{
     width: 300px;
     height: 298px;
+    align-items: center;
+    margin-left: 45px;
   }
 }
 
