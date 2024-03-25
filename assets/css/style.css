@@ -294,6 +294,66 @@ h6 {
   vertical-align: middle;
 }
 
+@media only screen and (max-width: 600px) { 
+  #recherche-alternance img{
+    margin-left: -65px;
+    margin-top: -100px;
+    width: 30px;
+    height: 30px;
+  }
+
+  #searchTextResp::before{
+    content: "Alternance";
+    margin-left: -90px;
+    white-space: pre;
+  }
+
+  #searchTextResp1::before{
+    content: "Bachelor & Création & Digital Design";
+    margin-left: -192px;
+    white-space: pre;
+  }
+
+  #searchTextResp2::before{
+    content: "Design UX & Interfaces.";
+    margin-left: -140px;
+    white-space: pre;
+
+  }
+  #searchText {
+    /* Modifie le texte directement */
+    display: none;
+  }
+  
+}
+
+#searchTextResp{
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(40) forwards;
+  font-family: "Abril Fatface", serif;
+  letter-spacing: 1px;
+  font-size: 1em
+}
+
+#searchTextResp1{
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(40) forwards;
+  font-family: "Abril Fatface", serif;
+  letter-spacing: 1px;
+  font-size: 1em
+}
+
+#searchTextResp2{
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(40) forwards;
+  font-family: "Abril Fatface", serif;
+  letter-spacing: 1px;
+  font-size: 1em
+}
+
 #searchText {
   overflow: hidden;
   white-space: nowrap;
@@ -851,6 +911,14 @@ section {
   width: 400px;
   height: 398px;
   border-radius: 25%;
+}
+
+
+@media only screen and (max-width: 600px){
+  .img-fluid-nino{
+    width: 300px;
+    height: 298px;
+  }
 }
 
 
