@@ -291,7 +291,6 @@ h6 {
   height: 50px;
   margin-right: 25px;
   vertical-align: middle;
-  display: none;
 }
 
 @media (max-width : 992px){
