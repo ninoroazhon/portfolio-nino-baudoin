@@ -275,9 +275,6 @@ h6 {
   font-style: normal;
 }
 
-
-
-
 #recherche-alternance {
   position: relative; /* Assurez-vous que la position est relative ou absolue si nécessaire */
   z-index: 999;
@@ -296,6 +293,9 @@ h6 {
 @media (max-width : 992px){
 #searchText {
   /* Modifie le texte directement */
+  display: none;
+}
+#recherche-alternance img{
   display: none;
 }
 }
